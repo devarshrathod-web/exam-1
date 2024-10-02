@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+ padding: 0;
+}
+.background{
+    background-image:  url(./background\ 2.jpeg);
+height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+    height: 500px;
+    width: 418px;
+    background-color: rgb(59, 59, 59);
+    margin-left: 265px;
+ overflow: hidden;
+ border: solid 2px white;
+ position: relative;
+ box-shadow: 0px 0px 5px 5px white;
+}
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+    overflow-y: scroll;
+}
+.box:hover .butt{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    top: 17px;
+    left: 327px;
+    border-radius: 12PX;
+    border: none;
+    font-size: 16px;
+}
+
+.padding{
+    padding-top: 252px;
+}
+.box img{
+    height: 205px;
+  width: 418px;
+}
+.box h2{
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.Butt{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    top: 17px;
+    left: 327px;
+    border-radius: 12PX;
+    border: none;
+    font-size: 16px;
+
+}
+.box p{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.bot button{
+    height: 52px;
+    width: 113px;
+    background-color: rgb(219, 181, 11);
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 14px;
+}
+.padding1{
+     padding-bottom: 30px;
+}
